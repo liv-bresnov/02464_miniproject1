@@ -23,3 +23,6 @@ def run_trial(n=15, interval=1):
 # Run experiment
 sequence = run_trial()
 print("Now recall the words!")
+
+
+# Mangler at gemme original sequence og vores gæt.
