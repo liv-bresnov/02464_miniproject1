@@ -1,13 +1,12 @@
 import random
 import time
-import nltk
+from wordfreq import top_n_list
 
-# Download word list (first time only)
-nltk.download("words")
-from nltk.corpus import words
+# Get a frequency-ranked English word list
+word_list = top_n_list("en", 5000)
 
-# Get all 3-letter dictionary words
-three_letter_words = [w.lower() for w in words.words() if len(w) == 3]
+# Keep only 3-letter words (already filtered to common words)
+three_letter_words = [w for w in word_list if len(w) == 3]
 
 def run_trial(n=15, interval=1):
     # Pick random 3-letter words without replacement
@@ -17,11 +16,10 @@ def run_trial(n=15, interval=1):
     for word in trial_words:
         print(word)
         time.sleep(interval)  # show each for 'interval' seconds
-        print("\033c", end="")  # clear screen (works in most terminals)
+        print("\033c", end="")  # clear screen
 
     return trial_words
 
 # Run experiment
 sequence = run_trial()
 print("Now recall the words!")
-
