@@ -1,6 +1,7 @@
 import random
 import time
 from wordfreq import top_n_list
+import csv
 
 # Get a frequency-ranked English word list
 word_list = top_n_list("en", 1000)
@@ -20,11 +21,34 @@ def run_trial(n=15, interval=1):
 
     return trial_words
 
-# Run experiment
-sequence = run_trial()
-print("Now recall the words!")
+# Dictionary to store results
+results = {}
 
-# Step 5: Ask for recall
-recall = input("Please recite the words back (separate with spaces):\n")
+# Run 20 trials
+for trial_num in range(1, 21):
+    print(f"\n--- Trial {trial_num} ---")
+    sequence = run_trial()
+    recall = input("Please recite the words back (separate with spaces):\n").lower().split()
 
-# Mangler at gemme original sequence og vores gæt.
+    # Save both sequence and recall in dictionary
+    results[trial_num] = {
+        "sequence": sequence,
+        "recall": recall
+    }
+
+# CSV file name
+csv_filename = "recall_chunking.csv"
+
+# Save results to CSV
+with open(csv_filename, "w", newline="") as csvfile:
+    writer = csv.writer(csvfile)
+    writer.writerow(["Trial", "Sequence", "Recall"])  # header row
+    
+    for trial, data in results.items():
+        writer.writerow([
+            trial,
+            " ".join(data["sequence"]),  # join list into a single string
+            " ".join(data["recall"])
+        ])
+
+print("\nExperiment complete! Results saved to 'experiment_results.csv'")
