@@ -3,7 +3,7 @@ import time
 from wordfreq import top_n_list
 
 # Get a frequency-ranked English word list
-word_list = top_n_list("en", 5000)
+word_list = top_n_list("en", 1000)
 
 # Keep only 3-letter words (already filtered to common words)
 three_letter_words = [w for w in word_list if len(w) == 3]
