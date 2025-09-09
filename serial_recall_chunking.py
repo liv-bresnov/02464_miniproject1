@@ -24,5 +24,7 @@ def run_trial(n=15, interval=1):
 sequence = run_trial()
 print("Now recall the words!")
 
+# Step 5: Ask for recall
+recall = input("Please recite the words back (separate with spaces):\n")
 
 # Mangler at gemme original sequence og vores gæt.
