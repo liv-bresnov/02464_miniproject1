@@ -36,17 +36,14 @@ recall = input("Please recite the animals back (separate with spaces):\n")
 # Step 6: Process recall
 user_animals = recall.split()
 
-# Normalize to lowercase for comparison
-chosen_set = set(a.lower() for a in chosen_animals)
-user_set = set(a.lower() for a in user_animals)
+# Score: count correct animals in the correct position
+score = sum(1 for i in range(min(len(user_animals), len(chosen_animals)))
+            if user_animals[i].lower() == chosen_animals[i].lower())
 
-# Score = number of correct animals recalled (order doesn't matter)
-score = len(chosen_set & user_set)
-
-print("\nCorrect animals were:")
+print("\nCorrect order:")
 print(chosen_animals)
 
-print("\nYou recalled:")
+print("\nYour recall:")
 print(user_animals)
 
 print(f"\nYour score: {score} / {len(chosen_animals)}")
