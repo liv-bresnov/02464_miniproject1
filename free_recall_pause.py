@@ -22,15 +22,15 @@ def run_trial(n=15, interval=1):
 results = {}
 
 # Run 20 trials
-for trial_num in range(1, 21):
+for trial_num in range(1, 2):
     print(f"\n--- Trial {trial_num} ---")
     sequence = run_trial()
 
     # Wait before recall
     wait_time = 5
-    print(f"Now wait {wait_time} seconds before recalling the words...\n")
+    print(f"Now wait {wait_time} seconds before recalling the letters...\n")
     time.sleep(wait_time)
-    recall = input("Please recite the words back (separate with spaces):\n").lower().split()
+    recall = input("Please recite the letters back (separate with spaces):\n").lower().split()
 
     # Save both sequence and recall in dictionary
     results[trial_num] = {

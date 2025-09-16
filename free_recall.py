@@ -25,7 +25,7 @@ results = {}
 for trial_num in range(1, 21):
     print(f"\n--- Trial {trial_num} ---")
     sequence = run_trial()
-    recall = input("Please recite the words back (separate with spaces):\n").lower().split()
+    recall = input("Please recite the letters back (separate with spaces):\n").lower().split()
 
     # Save both sequence and recall in dictionary
     results[trial_num] = {
