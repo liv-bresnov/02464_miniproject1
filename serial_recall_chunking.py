@@ -6,7 +6,7 @@ import csv
 # --- Configure here ---
 participant = "YOU_FORGOT_TO_WRITE_YOUR_NAME"   # <--- change this to your name/ID once
 experiment_name = "SR_chunking"    # <--- change this to your experiment name
-csv_filename = f"{participant}.csv"
+csv_filename = f"csv_files/{participant.lower()}.csv"
 # ----------------------
 
 
@@ -54,7 +54,7 @@ with open(csv_filename, "a", newline="") as csvfile:
         writer.writerow(["Name", "Experiment", "Trial", "Sequence", "Recall"])
     for trial, data in results.items():
         writer.writerow([
-            participant,
+            participant.lower(),
             experiment_name,
             trial,
             " ".join(data["sequence"]),

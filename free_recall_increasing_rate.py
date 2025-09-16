@@ -3,9 +3,9 @@ import time
 import csv
 
 # --- Configure here ---
-participant = "YOU_FORGOT_TO_WRITE_YOUR_NAME"   # <--- change this to your name/ID once
+participant = "YOU_FORGOT_TO_WRITE_YOUR_NAME"   # <--- change this to your name/ID once, LOWERCASE
 experiment_name = "FR_increasing_rate"    # <--- change this to your experiment name
-csv_filename = f"{participant}.csv"
+csv_filename = f"csv_files/{participant.lower()}.csv"
 # ----------------------
 
 # Get a frequency-ranked English word list
@@ -40,8 +40,6 @@ for trial_num in range(1, 21):
         "recall": recall
     }
 
-# CSV file name. COMMENT OUT WHEN DONE OR RENAME
-csv_filename = "free_recall_increasing_rate.csv"
 
 # Save results to CSV
 with open(csv_filename, "a", newline="") as csvfile:
@@ -50,7 +48,7 @@ with open(csv_filename, "a", newline="") as csvfile:
         writer.writerow(["Name", "Experiment", "Trial", "Sequence", "Recall"])
     for trial, data in results.items():
         writer.writerow([
-            participant,
+            participant.lower(),
             experiment_name,
             trial,
             " ".join(data["sequence"]),
