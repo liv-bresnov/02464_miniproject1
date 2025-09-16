@@ -33,6 +33,7 @@ results = {}
 # Run 20 trials
 for trial_num in range(1, 2):
     print(f"\n--- Trial {trial_num} ---")
+    time.sleep(5)
     sequence = run_trial()
     recall = input("Please recite the words back (separate with spaces):\n").lower().split()
 
