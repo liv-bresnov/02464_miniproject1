@@ -38,7 +38,7 @@ for trial_num in range(1, 2):
     }
 
 # CSV file name. COMMENT OUT WHEN DONE OR RENAME
-csv_filename = "serial_recall_working_mem_task.csv"
+csv_filename = "free_recall_working_mem_task.csv"
 
 # Save results to CSV
 with open(csv_filename, "w", newline="") as csvfile:
