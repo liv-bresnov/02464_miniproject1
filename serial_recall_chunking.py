@@ -13,6 +13,7 @@ filtered_words = [w for w in words if len(w) == 3 and w.isalpha()]
 # Take the top 500 of those
 three_letter_words = filtered_words[:500]
 
+participant = input("Enter your participant ID or name: ")
 
 def run_trial(n=15, interval=1):
     # Pick random 3-letter words without replacement
@@ -30,7 +31,7 @@ def run_trial(n=15, interval=1):
 results = {}
 
 # Run 20 trials
-for trial_num in range(1, 21):
+for trial_num in range(1, 2):
     print(f"\n--- Trial {trial_num} ---")
     sequence = run_trial()
     recall = input("Please recite the words back (separate with spaces):\n").lower().split()
@@ -45,14 +46,15 @@ for trial_num in range(1, 21):
 csv_filename = "recall_chunking.csv"
 
 # Save results to CSV
-with open(csv_filename, "w", newline="") as csvfile:
+with open(csv_filename, "a", newline="") as csvfile:
     writer = csv.writer(csvfile)
-    writer.writerow(["Trial", "Sequence", "Recall"])  # header row
-    
+    if csvfile.tell() == 0:  # write header only if file is new
+        writer.writerow(["Participant", "Trial", "Sequence", "Recall"])
     for trial, data in results.items():
         writer.writerow([
+            participant,
             trial,
-            " ".join(data["sequence"]),  # join list into a single string
+            " ".join(data["sequence"]),
             " ".join(data["recall"])
         ])
 
