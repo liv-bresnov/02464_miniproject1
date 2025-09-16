@@ -3,6 +3,12 @@ import time
 from wordfreq import top_n_list
 import csv
 
+# --- Configure here ---
+participant = "YOU_FORGOT_TO_WRITE_YOUR_NAME"   # <--- change this to your name/ID once
+experiment_name = "SR_chunking"    # <--- change this to your experiment name
+csv_filename = f"{participant}.csv"
+# ----------------------
+
 
 # Get a large list of common words (e.g., top 50k)
 words = top_n_list("en", 50000)
@@ -12,8 +18,6 @@ filtered_words = [w for w in words if len(w) == 3 and w.isalpha()]
 
 # Take the top 500 of those
 three_letter_words = filtered_words[:500]
-
-participant = input("Enter your participant ID or name: ")
 
 def run_trial(n=15, interval=1):
     # Pick random 3-letter words without replacement
@@ -43,20 +47,18 @@ for trial_num in range(1, 2):
         "recall": recall
     }
 
-# CSV file name
-csv_filename = "recall_chunking.csv"
-
 # Save results to CSV
 with open(csv_filename, "a", newline="") as csvfile:
     writer = csv.writer(csvfile)
     if csvfile.tell() == 0:  # write header only if file is new
-        writer.writerow(["Participant", "Trial", "Sequence", "Recall"])
+        writer.writerow(["Name", "Experiment", "Trial", "Sequence", "Recall"])
     for trial, data in results.items():
         writer.writerow([
             participant,
+            experiment_name,
             trial,
             " ".join(data["sequence"]),
             " ".join(data["recall"])
         ])
 
-print("\nExperiment complete! Results saved to 'experiment_results.csv'")
+print(f"\nExperiment complete! Results saved to {csv_filename}.")

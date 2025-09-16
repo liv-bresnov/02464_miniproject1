@@ -2,6 +2,12 @@ import random
 import time
 import csv
 
+# --- Configure here ---
+participant = "YOU_FORGOT_TO_WRITE_YOUR_NAME"   # <--- change this to your name/ID once
+experiment_name = "FR"    # <--- change this to your experiment name
+csv_filename = f"{participant}.csv"
+# ----------------------
+
 # Get a frequency-ranked English word list
 alphabet=['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','x','y','z']
 
@@ -38,15 +44,17 @@ for trial_num in range(1, 21):
 csv_filename = "free_recall.csv"
 
 # Save results to CSV
-with open(csv_filename, "w", newline="") as csvfile:
+with open(csv_filename, "a", newline="") as csvfile:
     writer = csv.writer(csvfile)
-    writer.writerow(["Trial", "Sequence", "Recall"])  # header row
-    
+    if csvfile.tell() == 0:  # write header only if file is new
+        writer.writerow(["Name", "Experiment", "Trial", "Sequence", "Recall"])
     for trial, data in results.items():
         writer.writerow([
+            participant,
+            experiment_name,
             trial,
-            " ".join(data["sequence"]),  # join list into a single string
+            " ".join(data["sequence"]),
             " ".join(data["recall"])
         ])
 
-print("\nExperiment complete! Results saved to", csv_filename)
+print(f"\nExperiment complete! Results saved to {csv_filename}.")
