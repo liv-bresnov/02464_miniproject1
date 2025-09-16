@@ -3,11 +3,16 @@ import time
 from wordfreq import top_n_list
 import csv
 
-# Get a frequency-ranked English word list
-word_list = top_n_list("en", 1000)
 
-# Keep only 3-letter words (already filtered to common words)
-three_letter_words = [w for w in word_list if len(w) == 3]
+# Get a large list of common words (e.g., top 50k)
+words = top_n_list("en", 50000)
+
+# Filter to 3-letter alphabetic words only
+filtered_words = [w for w in words if len(w) == 3 and w.isalpha()]
+
+# Take the top 500 of those
+three_letter_words = filtered_words[:500]
+
 
 def run_trial(n=15, interval=1):
     # Pick random 3-letter words without replacement
