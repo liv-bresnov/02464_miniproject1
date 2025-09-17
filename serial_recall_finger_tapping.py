@@ -28,7 +28,7 @@ def run_trial(n=15, interval=1):
 results = {}
 
 # Run 20 trials
-for trial_num in range(1, 21):
+for trial_num in range(1, 6):
     print(f"\n--- Trial {trial_num} ---")
     time.sleep(5)
     print('Remember to tap your finger')
