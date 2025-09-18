@@ -17,7 +17,7 @@ words = top_n_list("en", 50000)
 filtered_words = [w for w in words if len(w) == 3 and w.isalpha()]
 
 # Take the top 500 of those
-three_letter_words = filtered_words[:500]
+three_letter_words = filtered_words[:100]
 
 def run_trial(n=15, interval=1):
     # Pick random 3-letter words without replacement
@@ -35,7 +35,7 @@ def run_trial(n=15, interval=1):
 results = {}
 
 # Run 20 trials
-for trial_num in range(1, 2):
+for trial_num in range(1, 21):
     print(f"\n--- Trial {trial_num} ---")
     time.sleep(5)
     sequence = run_trial()
