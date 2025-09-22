@@ -1,1 +1,161 @@
- 
+Name,Experiment,Trial,Sequence,Recall
+julie,FR,1,a t v h q c x b j i g r o p u,o p u b i g x a t d n
+julie,FR,2,r a x t n q z o c p e s m u f,p e s m u f x r a s p q d z
+julie,FR,3,c n y d x e h u a j s i k r g,j s i g r x z e b c h s u
+julie,FR,4,k m f h t q o l j z u y d r a,k m f h u d l y e g c n p a
+julie,FR,1,m a r q f o y n x z p b i e u,m a r q p i e u n x f o y z s t
+julie,FR,3,r y n h z t k q o j m b d x p,n y q k m b x z c t k p r s
+julie,FR,4,a e i y s t x j u m k n d b o,n d b o a i e y j u m s t g h
+julie,FR,5,y r c g j u o l s p k v z n h,p k v z n h u o g j k l
+julie,FR,6,p e y a j z s k r b q o l d u,o l d u j k b z p e y a c
+julie,FR,7,r s f h m o q j t e v p i d y,j t v p i y d h m q o
+julie,FR,8,s l m h v b f j p d k e t r q,k e t r q s l m n p q o u
+julie,FR,9,d v c f p s l g h j a m y o e,a m y o e c f d v k p g
+julie,FR,1,x s l a i f j r m y v q z n b,y v q z n b l a i f x s u o
+julie,FR,2,r x k s j g z v m c h o n l e,m c h o n l e r x s f g
+julie,FR,3,x t h c l q u v a e s b p z g,b p g z u v x a e s r s t g y
+julie,FR,4,m j f u s v b d o g i t q z p,t i q z p m j d o g s v b g u
+julie,FR,5,e g i o u p a t z n m v h s x,n m v h s x p a t z e i y b
+julie,FR,6,s m p d i g a r q v o x u b k,a r q v u x u b k s m p d i e
+julie,FR,7,h q m i v p z d j o b t n g l,p z j o p g n u m i v a
+julie,FR,1,k t y j n z e h x m s g u o c,s g u o c n z x m j t p
+julie,FR_increasing_rate,1,o m t z j f b r u k i l q p n,u k i l q p o c t b m n
+julie,FR_increasing_rate,2,q x z e g p s v i u r t l j k,s v i u r t j k l m c p y z
+julie,FR_increasing_rate,3,q k a p n t e y l h c f g b d,h c f g p s b q t e y b s
+julie,FR_increasing_rate,4,f p m d z a s n k x t l b q j,k t x l m n b j p q
+julie,FR_increasing_rate,5,b c f i q x a r g u y h o m e,g u y h o m e a s t x c j i
+julie,FR_increasing_rate,6,i g o a h p f c y d m r b t l,m r b t l i g l o x c
+julie,FR_increasing_rate,7,c l j x d f a h g m k t n s b,m n k t s l b a y p i e u
+julie,FR_increasing_rate,8,o m q t u n r k y g b e v f x,y b t e i x r m l k
+julie,FR_increasing_rate,9,z o l g h q a n r d p v u j i,a n d r b u v y j b m z o y g
+julie,FR_increasing_rate,10,o n a j d q y c i g r h z v b,i g v h r z b o m a p u
+julie,FR_increasing_rate,11,o k c y q r h p t n d j v e z,p t n d j z p v o k a c
+julie,FR_increasing_rate,12,y i v m q x a k c r l g s e d,l g d e s y k a c y i v j
+julie,FR_increasing_rate,13,k m g y a f t i n x c e o b j,i n x c b j o g y a t p q n m
+julie,FR_increasing_rate,14,n t e b x m v i a g q j l p z,j p l q x g i a t v
+julie,FR_increasing_rate,15,p e j q x r u z g s f a i m n,g s a i f m n r u x y c f
+julie,FR_increasing_rate,16,t j b i y k e g r u z q f m o,r u s q f m n o x c k i e
+julie,FR_increasing_rate,17,b r p h q z i d x v o e f a g,x v o f e a g m n k i f c z
+julie,FR_increasing_rate,18,u a c d r b h m v l z y k j o,l z y k o j d r b h c x
+julie,FR_increasing_rate,19,c q r p x e a k s d b z j l n,z j l n d b x r j k o
+julie,FR_increasing_rate,20,q h j a f r s k n m v z b c u,n m v b z e u k f r
+julie,FR_pause,1,d h t b i u e p g l o v n s k,v n s k d h b u i x a b
+julie,FR_pause,2,d k i q v a m u r e b l p f c,b l p f c v a m u r i q d k
+julie,FR_pause,3,u l r q i v d b j t m f g h y,j m f g t h y e u l r i q
+julie,FR_pause,4,h v l t y i s j c o u x p m d,j c h o x p d y i e
+julie,FR_pause,5,x b l q h o a e c f m v z n s,x b m v z n f m c f h o a e
+julie,FR_pause,6,d v b o g e x s a t k m c j p,a t m k j c p d v f
+julie,FR_pause,7,u p b x n g f m z v y h s e t,m z v h y e t g f b x n
+julie,FR_pause,8,c h e v b x i r q p l s t m o,l s t m o r q s b x i n f
+julie,FR_pause,9,m r j e l f u s i p g b z d y,p z c f y d j e u i x
+julie,FR_pause,10,d y q k a j v i c u f o g m x,c u f g o m x d i q v i
+julie,FR_pause,11,c x l n o g z a s u b f i r p,a s u b f r i p c k e
+julie,FR_pause,12,x g y v m a j t r b d q n c e,r b e q n c b a p a v t
+julie,FR_pause,13,u a g p n e d m c z v j b h i,z v j b h i m c u n b x
+julie,FR_pause,14,v r t j c y b u k l q h o e a,u q l k h o e a u t m
+julie,FR_pause,15,m i f t v a d z l s r n y h o,z l n r h o y a m i b v
+julie,FR_pause,16,f e r x d j s p q b z h v o c,s b k l y h o v z e g
+julie,FR_pause,17,g x q y e m h k c b t r z j f,m b k h c r x j f r q e
+julie,FR_pause,18,v i h a k g t z c y s n d e p,s y n z n d p e x g t
+julie,FR_pause,19,b r x i g m f v j l q p t h o,v j l q b t h o x i a k
+julie,FR_pause,20,m e a c x u v l r h f i j b k,v l r i f b j k l o x h a e
+julie,FR_working_mem_task,1,x j h c g y v t p u z a m b i,t z v j b l u g a v g
+julie,FR_working_mem_task,2,f v y p j i d u q z a k t m n,v i p q z v j m b
+julie,FR_working_mem_task,3,d m l i o c p a t f q y j b k,p a t d m d v i y j b
+julie,FR_working_mem_task,4,j s o a h i k e n x q z u r m,x q r k l m z i k o a h
+julie,FR_working_mem_task,5,f a i p d r c e x l z g s m o,l s g m o z c e i f
+julie,FR_working_mem_task,6,p e t q g s l b r h n o c z v,p e t l m r n q o p z
+julie,FR_working_mem_task,7,i g a e c q t z j u y b v p f,g u y p j g e a i
+julie,FR_working_mem_task,8,l b t r y n m g z v x k e c i,v x i c k b i g f h
+julie,FR_working_mem_task,9,n m h b l k t c i r v a d g q,r v a q b l i c k h m n h o
+julie,FR_working_mem_task,10,b h a j y n g l s k e i d r u,g l s h e y o c f a
+julie,FR_working_mem_task,11,d s k l f c q a m t e u h g y,m t h e y u i d r a g f
+julie,FR_working_mem_task,12,u m t h a i x q o k j f s r g,j r f s g l o k e i
+julie,FR_working_mem_task,13,a f m c d s o v k n h y g j t,v n y g x h a i u z
+julie,FR_working_mem_task,14,h a k o b g q n s j t l r x p,t l j e r x p h a c o b z
+julie,FR_working_mem_task,15,m c g k r u x d j n p h b f e,p h b x f c e m r u x k
+julie,FR_working_mem_task,16,h c l y a t f z e q v k r x g,z f c k u l f j m h c a
+julie,FR_working_mem_task,17,b g v k p f z y h a c d l r s,z h l v d g r p e
+julie,FR_working_mem_task,18,i y d n k f r q g u p e l t c,g u y p l t r q s d
+julie,FR_working_mem_task,19,g v q x l j m t o p n z d h k,z d h k l j u m b o e f
+julie,FR_working_mem_task,20,v q m i r y j t x h d k g b p,h d g p j c t x m y r a
+julie,SR,1,q b x n t i l p y u e z h j k,q b x i t l n
+julie,SR,2,b i p q d x z u o m j f v k s,b i p q d x z u o
+julie,SR,3,j p e q o v r f d u g b a y t,j p x u o v r
+julie,SR,4,n q y s a x u j k d o f e c t,n q y x a s
+julie,SR,5,g j a s h u d i t l y k m n e,g j a s h i d l
+julie,SR,6,c m h s x e a l p u z k g f y,c m h s x e a
+julie,SR,7,q i z a t f g d u p n e c m v,q i z a t f
+julie,SR,8,s y j u h l f c a g m q e p k,s y j u k l f c
+julie,SR,9,y g l p i m j t n e r u z h s,h g s p i m j c
+julie,SR,10,q v x h d o s i l e g m k f j,q v x h d o
+julie,SR,11,r a u y m o v p s b f k n g z,r a u y m o v p s
+julie,SR,12,z l j x u q s i o n k y h c m,z j l x q y s
+julie,SR,13,d u x m g o e h z v s l j a b,d u x m g h o y e z
+julie,SR,14,m q z a g t s e k f d x j v h,m q z a g t s
+julie,SR,15,q r b j n s e g c d k f u t h,q r b j n s e g k
+julie,SR,16,a o d f j k z u q b v y t i r,a o d f j k z u
+julie,SR,17,v u a m i d t b c p q n j y r,v u a m i d t b p c
+julie,SR,18,d c v p r z k j l f s x b h g,d c v p r z q j
+julie,SR,19,g s f b h d t z u r e k c a p,g s f b p v j
+julie,SR,20,z j p t f m x v b d y e h a o,z j b t f
+julie,SR_finger_tapping,1,p z o q s m r k t h c e f b i,p z g o s
+julie,SR_finger_tapping,2,f d o i e j r k z b u s l h g,f d o i e j k r
+julie,SR_finger_tapping,3,m x j o r e p v y z k f g a l,m x j o r e
+julie,SR_finger_tapping,4,o z k i h r v j t q c a m u s,o x h i j k r s
+julie,SR_finger_tapping,5,y e r z v t o m b f q p n x g,y e r z v t
+julie,SR_finger_tapping,6,n h d g a o m c u t l z s r e,n h d g a o m c u
+julie,SR_finger_tapping,7,a g b s k t o f j u x m p z v,a g b s k t
+julie,SR_finger_tapping,8,x q o z m i v l b p s f a e j,x q u o y z
+julie,SR_finger_tapping,9,n i e m z g h u s x q y p o d,n i e m z g h u
+julie,SR_finger_tapping,10,i j k m h a t x n g o f c v q,i j h m o
+julie,SR_finger_tapping,11,f i z a v p s h t q m g y r k,f i z a v h t s
+julie,SR_finger_tapping,12,x e s c o b z q h l k y d u m,x e s c o b z h u
+julie,SR_finger_tapping,13,g v t y r f i u l n h o e m x,g v t y r f
+julie,SR_finger_tapping,14,p z e y f m l h s g t u q a x,p z e y f m l
+julie,SR_finger_tapping,15,f n t e c r m i d k p o l u v,f n t e c r m i d
+julie,SR_finger_tapping,16,v e m t x i q o g u z h k j s,v e m t x i q o g u
+julie,SR_finger_tapping,17,r g k u f q e z m o y a t p s,r g k u f q
+julie,SR_finger_tapping,18,c m d z f y i p n h t g e a v,c m d z f y i
+julie,SR_finger_tapping,19,m l d s f a p q g z y j v b o,m l d s f a p q
+julie,SR_finger_tapping,20,r e b i t y m a h s o n u d v,r e b i t y m a h
+julie,SR_chunking,1,see you our boy any yes him out has met act bed for per new,see you our boy any yes him
+julie,SR_chunking,2,met per law far his see few she one job off win out hot add,met per law far his see
+julie,SR_chunking,3,air get day ago act eat his set pay ask why yet but you won,air get day ago him
+julie,SR_chunking,4,how not art job six war buy far all air ask age cup set few,how not art job six war
+julie,SR_chunking,5,hey led ask bit ago boy met run far dog hit tax use mom son,hey led ask bit ago
+julie,SR_chunking,6,why say ago art buy hit him out big bit tax day son yes saw,why say hello art buy hit
+julie,SR_chunking,7,all way say dog due and bit car put die yet may saw bad are,all way say art due dog
+julie,SR_chunking,8,bad six low try his key she way due out fun use saw war red,bad six hit guy met she
+julie,SR_chunking,9,and its own sex hot die off his did put cut the buy how boy,and its own hit six his she
+julie,SR_chunking,10,men yes say led son why out law car mom day new she let boy,men yes say led son
+julie,SR_chunking,11,has six off hit put per did bit run him guy the own out age,has six off hit put per
+julie,SR_chunking,12,cup per six but two hey bit any who put see and way yet can,cup per six but say hey
+julie,SR_chunking,13,war has the saw too try son non per all are top one may who,war has the saw too try son
+julie,SR_chunking,14,few win per mom cup due but own eat war are son you get our,few win per mom cup due but
+julie,SR_chunking,15,was how hey tax any bad all fun war man two dog can per won,was how hey tax any bad
+julie,SR_chunking,16,man ago due way war men one far tax hit not now let oil saw,man ago due way war one
+julie,SR_chunking,17,her are new got boy one get you has guy son yet hit cut big,her are who new boy one get
+julie,SR_chunking,18,run win can led did yes cut you him end one few ago men non,run win can yes led did
+julie,SR_chunking,19,add got buy for oil eat who new red had six key saw run bed,add got buy for oil
+julie,SR_chunking,20,met the man saw lot war own guy out big hit may now car off,met the man saw lot war own
+julie,SR_ladida,1,c l b x g q u t f i e m r o j,c l b x
+julie,SR_ladida,2,t q h k x m u b z f o j y v c,t h q d
+julie,SR_ladida,3,l r d b u v e a k y c g q o i,l b r d
+julie,SR_ladida,4,f y p e x s o j r g z v q c b,f y p e x s
+julie,SR_ladida,5,s c k v a j x h d u r y n f l,s c k v
+julie,SR_ladida,6,t u q s a p l d v f i n c h k,t u q s a p
+julie,SR_ladida,7,x c p a y d b t j u q z g f h,x c a p y
+julie,SR_ladida,8,b a q k d h s m j z x u e n i,b a q k d h
+julie,SR_ladida,9,n b x p q o l j c a z v k h r,n x p q
+julie,SR_ladida,10,m x s p d u t q z i g l f b h,m x p s d
+julie,SR_ladida,11,b a h z d e x l q v c f m y j,b a h z d e
+julie,SR_ladida,12,i b u t m v h q g a k z j r p,i b u t m v h
+julie,SR_ladida,13,p j z h s u g d q l m o t y a,p j z h
+julie,SR_ladida,14,f i m r b d s k q o v x a l c,f i m r b d s
+julie,SR_ladida,15,i t x s y e r k h f a l n q z,i t x s y e r k
+julie,SR_ladida,16,p f l s q m b e j d r o h a c,p f m l q
+julie,SR_ladida,17,z x g e k l v y d f q c a t p,z x g e k l
+julie,SR_ladida,18,i g l u m b e n q o x d c h p,i g l u m b e n
+julie,SR_ladida,19,n f z i e c a u d b g o q p x,n f z i e r
+julie,SR_ladida,20,a p i x u e j o d y t c l v r,a p i x u e j o
