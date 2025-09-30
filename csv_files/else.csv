@@ -99,3 +99,63 @@ else,FR_working_mem_task,7,q h l v j u i a p d g s o r y,y q o l v
 else,FR_working_mem_task,8,x i l q z t r h f p m j y o u,m l o u e
 else,FR_working_mem_task,9,i s t l d h n x u z j k p m y,l m k j y
 else,FR_working_mem_task,10,l o f y q p c s r d z x g m v,l o u f y c
+else,FR_pause,1,c j e s p x i z h n q l f a k,c n i k j z g f l
+else,FR_pause,2,i t c r u x q z f n d e h s o,i t c n r o f s x
+else,FR_pause,3,s r h q z e m n p d f x c t k,s m r q c x
+else,FR_pause,4,q f k l v i u g s z o h m e a,u f k m n e s
+else,FR_pause,5,h e b n f x t i y z c g s a o,h e b f n s o
+else,FR_pause,6,j c f s q y g o l a x r e z b,h s f x j o n
+else,FR_pause,7,c q t h g p y i m k v r f u z,c t k u f j b s v y
+else,FR_pause,8,e s o f k r c x u y i l m b g,e o s f m b k m g
+else,FR_pause,9,e j r q u t g b y m p d c h k,s h k e m f i
+else,FR_pause,10,q k b x t o g a d c e h m z i,i o u f t k j b d
+else,FR_pause,1,k f h b n o m t e x v a s g q,k b h f n q x v
+else,FR_pause,2,n x s f p r q c j g i a u o t,n q f s x o u i k b m
+else,FR_pause,3,v z y s h t m x d b k e q c n,v x y z o u i b n
+else,FR_pause,4,n h f i b a m s t j p v z k l,n h i b f p j m n k q
+else,FR_pause,5,p n t l d c v m k o h f x u a,u a p n t d l f j x v
+else,FR_pause,6,b h g z x n m f k d y i c s o,b h g z x n j o c
+else,FR_pause,7,a q t r h n g d i e x s o p l,a q t h n r g o
+else,FR_pause,8,v g c h d p t s k o e b j u q,v k c j d b z o u f
+else,FR_pause,9,h o g j i c s d a z u m k b p,o u i c j d k b j p
+else,FR_pause,10,l a p t h m n z s o j v q i c,l a p k c j n m o
+else,FR,1,g n t z m c i q y u h e p k r,g n t z q m p r u k j
+else,FR,2,p o n b h j v y k m x q c l a,p o n c q v x j h l
+else,FR,3,n c h i r b o z f e p l m u x,n c h l u r x b o
+else,FR,4,g v o y j f m a h z n s r k b,g v y o r z p a r
+else,FR,5,c x d p e t q n f o l a m u y,c x d p e u j z k
+else,FR,6,t y j e a p i g o h d z s k r,d y j k s r c p l
+else,FR,7,r u c f n h z q v d g o b a s,r v c d u k s
+else,FR,8,z s d i t h q n v x c o j m p,p j z d s i t
+else,FR,9,h e b s k i n d o u l v r a z,h e b z i n r
+else,FR,10,z p k v i l r x m u h g f e s,j h v r i z s e
+else,FR,11,d i p r m k h v l g j y u z o,d i p v j r z y p k h
+else,FR,12,t e l i s h a n b o u x z q d,d u o z k d e b i s h
+else,FR,13,z n b s k v g e a d q o f p j,n z b j i k a
+else,FR,14,z h v q d j l a x y t p e i f,z h i j y x b l
+else,FR,15,s c i t g d m x b a k p o l e,d o b k a e l z
+else,FR,16,s x q v g k j o h f e n z u i,u i z s x q v g
+else,FR,17,i n u m o c p j h r d g e t x,t x i n o u z v g r
+else,FR,18,l p e d t v j k f q u s r y c,l p t d e v u
+else,FR,19,g k u h s v e l m b n a j f t,b k a j u l t
+else,FR,20,s v n i r f p o c h u k x l y,k j x n l y s v i r o
+else,FR_increasing_rate,1,p f l x g a n t e o d r s h z,p f a z e j k
+else,FR_increasing_rate,2,o u f l b m y k x q c t d j a,j a o u f l b c
+else,FR_increasing_rate,3,r v i x j p o b n g z l c u t,t r v i j x o b
+else,FR_increasing_rate,4,a i x m t v g b h f z k o d n,h o k n d b i z j
+else,FR_increasing_rate,5,a v o h i u g d l c k t b s z,a v o j k l b
+else,FR_increasing_rate,6,f n p j e y q m i d v b u c k,f n e j y p k o c
+else,FR_increasing_rate,7,i e r u j z c a b h p k g x y,x y i e r u j b
+else,FR_increasing_rate,8,z v b e j y g u o d s h q t n,z v e j b n k
+else,FR_increasing_rate,9,b i y j r o c h q f m n d t s,b u y j n m s e
+else,FR_increasing_rate,10,p y z i x n f e g r h u l v m,v m b i y z j n
+else,FR_increasing_rate,11,i u t n y x m h l v q j d e g,d e g i u n t j o
+else,FR_increasing_rate,12,a p m r c b h y e x l d j o t,e x d l o t m r c
+else,FR_increasing_rate,13,x u g r l k o e z b n a h v t,v t x n o u z j a
+else,FR_increasing_rate,14,e c z t j i r f o x n h k b d,h k b d j x u v
+else,FR_increasing_rate,15,z m s x g r d v f a n u p o l,o l z m x g e j r v
+else,FR_increasing_rate,16,n x k e y g c t o i m l u d f,x l m n i j o f d
+else,FR_increasing_rate,17,z n j i o t c d g f u m x h k,x h k z n i o f j
+else,FR_increasing_rate,18,a z u h g l j o d e s t m f y,h y z x i o l g
+else,FR_increasing_rate,19,f t j b v p n k e z r u c y d,y d r f t c h l b j
+else,FR_increasing_rate,20,p c f g z y i b h l m d n v a,b z f g h l m
